@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 11: Turquesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 11: Turquesa</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender la ciudadanía activa y ética digital.</li>
+                                        <li>Participar responsablemente en comunidades virtuales, respetar la propiedad intelectual, denunciar abusos.</li>
+                                        <li>Adoptar una conducta ética en entornos colectivos.</li>
+                                        <li>Conocer los derechos y deberes digitales.</li>
+                                        <li>Entender la propiedad intelectual y cómo hacer denuncias fundamentadas.</li>
+                                        <li>Saber qué acciones tomar ante abuso o comportamiento indebido.</li>
+                                        <li>Practicar el activismo digital responsable.</li>
+                                        <li>Ejercitar la participación ética en espacios digitales: crear, compartir, debatir y denunciar de forma responsable.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express: El Tribunal de la Comunidad</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Análisis y debate de dilemas éticos sobre derechos y deberes digitales, y la creación de un principio personal sobre participación ética en comunidades virtuales.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>3 "casos" para el Challenge "El Tribunal de la Comunidad".</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 10 (Protocolo Anti-Ciberacoso) a través de un desafío de síntesis conceptual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: Palabra Secreta Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“ Voy a proyectar el nombre del reto que hicimos en la misión pasada. En silencio, escriban una frase que resuma el propósito principal de esa actividad. 🤔<br><br>(En pantalla se proyecta: PROTOCOLO DE EMERGENCIA)”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Guía una breve reflexión para introducir el tema de derechos y deberes.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Bien. El propósito era tener un plan de acción claro para proteger a la comunidad ante diferentes situaciones, específicamente de ciberacoso. Hoy, vamos a explorar las ideas que le dan forma a ese plan: nuestros derechos y nuestros deberes como ciudadanos digitales. 🤔 La turquesa es una piedra considerada un puente entre el cielo y la tierra. Hoy, ustedes serán ese puente: el que conecta el derecho a expresarse con el deber de respetar. Vamos a analizar los límites.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 22 minutos</h2>
+                <p>Explorar de forma individual los dilemas éticos sobre propiedad intelectual, libertad de expresión y denuncia de abusos.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Turquesa.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada los pondrá en situaciones donde un derecho choca con un deber. ¿Tienes derecho a usar una canción famosa en tu video? ¿Tienes el deber de reportar un comentario aunque sea de un amigo? La clave de activación de hoy es: Misión Turquesa 💠. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express: El Tribunal de la Comunidad ⏰ 8 minutos</h2>
+                <p>Contextualizar el análisis de dilemas éticos como un juicio donde se deben sopesar derechos y deberes.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express: El Tribunal de la Comunidad ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: El Tribunal de la Comunidad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Atención. Nuestra comunidad digital se ha encontrado con dos casos complejos y no hay una respuesta fácil. Nuestra clase se convierte hoy en el ‘Tribunal de la Comunidad’. <br>Este es su reto: En equipos de 3 a 4 integrantes, analizarán dos casos reales. Su misión no es encontrar un culpable, sino debatir cuál es la acción más ética y responsable, considerando los derechos y deberes de todos los involucrados.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express ⏰ 5 minutos</h3>
+                            <p>Presenta 2 casos detallados. Pide a los equipos que los discutan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Aquí están los casos. Analicen cada uno e identifiquen el conflicto central. Tienen 5 minutos para discutirlos y tomar una postura.<br>Caso 1: El Video Viral y la Música Famosa 🎵<br>Contexto: Ana, una estudiante muy talentosa, dedica semanas a crear un video animado espectacular para un concurso escolar sobre el cuidado del agua. Para hacerlo más emocionante, usa la canción de moda de un artista muy famoso. Sube el video a YouTube, se hace viral y gana el concurso. Pero el mánager del artista ve el video y envía una reclamación a YouTube por usar la canción sin permiso, y el video es eliminado.<br>El Dilema: ¿La acción del mánager fue justa, aunque el video de Ana promovía una buena causa? ¿El talento de Ana le daba derecho a usar la canción? ¿De quién es la razón?<br>Caso 2: El Activismo y la Foto Polémica 📸<br>Contexto: Un grupo de estudiantes activistas está protestando contra una empresa de ropa por sus malas prácticas laborales. Encuentran en internet una foto impactante de un taller textil en condiciones terribles. La foto es perfecta para su campaña y la usan en todos sus posts, volviéndose virales y generando mucha presión sobre la empresa. Días después, se descubre que la foto, aunque real, es de otra empresa en otro país y de hace 10 años.<br>El Dilema: ¿El fin (denunciar una injusticia) justifica los medios (usar una foto fuera de contexto)? ¿Su activismo sigue siendo válido o perdieron toda la credibilidad?”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express ⏰ 3 minutos</h3>
+                            <p>Pide a cada equipo que comparta su veredicto y el razonamiento detrás de su decisión para ambos casos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, cada equipo compartirá su veredicto. Para el Caso 1, ¿qué debió haber hecho Ana? Para el Caso 2, ¿la campaña de los activistas fue ética? No hay respuestas fáciles. Lo importante es explicar en qué basaron su decisión. ¿Qué derecho o deber pesó más para ustedes?”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en un principio personal sobre su rol como ciudadano digital ético.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Para cerrar, vamos a definir nuestro compromiso como ciudadanos. Escriban un tweet que resuma su principio más importante al participar en una comunidad digital.<br>Ejemplo del maestro: Mi principio: Mi libertad de expresión termina donde empieza el derecho de otros a ser respetados. El equilibrio es clave. #CiudadaníaÉtica”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes compartir el tweet con un compañero y escuchar su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su principio con la persona de al lado. ¿Qué valora más cada uno: la libertad, el respeto, la justicia? ¿Cómo pueden convivir esos valores? El análisis mejora con el diálogo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy no encontraron respuestas fáciles, porque no las hay. Entendieron que ser un ciudadano digital activo significa navegar en la complejidad, sopesar derechos y actuar con responsabilidad. Han fortalecido su criterio ético. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
